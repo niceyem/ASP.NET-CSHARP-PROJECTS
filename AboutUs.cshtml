@@ -1,0 +1,406 @@
+﻿@{
+    ViewBag.Title = "Trinity Financial - About";
+    Layout = "";
+}
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trinity Financial - AboutUs</title>
+    <meta name="description" content="Trinity Financial Nigeria">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="icon" type="image/png" href="~/Image/trinity-logo-transparent.png" sizes="32x32">
+    
+    <link rel="icon" type="image/png" href="~/Image/trinity-logo-transparent.png" sizes="96x96">
+   
+    <link rel="icon" type="image/png" href="~/Image/trinity-logo-transparent.png" sizes="16x16">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="~/Image/trinity-logo-transparent.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/vendors/animate.css/animate.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:700,400" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic&amp;subset=latin,latin-ext,cyrillic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/fonts/trinity/styles.css">
+    <!--Main stylesheet-->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <!--Modernizr js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+<body>
+
+
+
+    <!--Page Content-->
+    <div class="page-content">
+        <!-- Page Navigation-->
+        <div class="main-nav nav-absolute bgc-dark-o-5">
+            <div class="__middle">
+                <div class="container">
+                    <div class="nav-content-wrapper">
+                        <div class="pull-left">
+                            <div class="trinity inline">
+                                <div class="cell-vertical-wrapper">
+                                    <div class="cell-middle">
+                                        <a href="#">
+                                            <div class="logo">
+                                                <img src="~/Image/trinity-logo-transparent.png" /> </div>
+                                            <div class="brand">TRINITY FINANCIAL</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pull-right">
+                            <nav class="os-menu  main-menu text-center">
+                                <ul>
+                                    <li>
+                                        <a href="@Url.Action("Index")">HOME</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="@Url.Action("AboutUs")">ABOUT US</a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Services")">SERVICES</a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Board")"> BOARD/MANAGEMENT PROFILE</a>
+                                    </li>
+                                    @*<li>
+                                        <a href="@Url.Action("News")">NEWS</a>
+                                    </li>*@
+                                    <li>
+                                        <a href="@Url.Action("FAQ")">FAQs</a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("ContactUs")">CONTACT US</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-nav small-nav bgc-light fixed-tranformed-bg-light nav-fixed border-bottom">
+            <div class="container">
+                <div class="nav-content-wrapper">
+                    <div class="pull-left">
+                        <div class="trinity inline logo-dark">
+                            <div class="cell-vertical-wrapper">
+                                <div class="cell-middle">
+                                    <a href="#">
+                                        <div class="logo">
+                                            <img src="~/Image/trinity-logo-transparent.png" /></div>
+                                        <div class="brand">TRINITY FINANCIAL</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pull-right visible-lg">
+                        <nav class="os-menu main-menu">
+                            <ul>
+                                <li>
+                                    <a href="@Url.Action("Index")">HOME</a>
+                                </li>
+                                <li class="active">
+                                    <a href="@Url.Action("AboutUs")">ABOUT US</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Services")">SERVICES</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Board")"> BOARD/MANAGEMENT PROFILE</a>
+                                </li>
+                                @*<li>
+                                    <a href="@Url.Action("News")">NEWS</a>
+                                </li>*@
+                                <li>
+                                    <a href="@Url.Action("FAQ")">FAQs</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("ContactUs")">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div class="pull-right nav-item hidden-lg"><a href="#" class="mobile-nav-toggle nav-hamburger"><span></span></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="#" class="mobile-nav-toggle"><i class="icon-close47"></i></a><a href="#" class="trinity">
+                <div class="logo">
+                    <img src="~/Image/trinity-logo-transparent.png" /> </div>
+                <div class="brand">TRINITY FINANCIAL</div>
+            </a>
+            <nav class="os-menu mobile-menu">
+                <ul>
+                    <li>
+                        <a href="@Url.Action("Index")">HOME</a>
+                    </li>
+                    <li class="active">
+                        <a href="@Url.Action("AboutUs")">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Services")">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Board")"> BOARD/MANAGEMENT PROFILE</a>
+                    </li>
+                    @*<li>
+                        <a href="@Url.Action("News")">NEWS</a>
+                    </li>*@
+                    <li>
+                        <a href="@Url.Action("FAQ")">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("ContactUs")">CONTACT US</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="social-area">
+                <ul class="social circle gray">
+                    <li><a href="https://facebook.com/trinityfinanceltd"><i class="icon icon-facebook-1"></i></a></li>
+                    <li><a href="https://twitter.com/trinityfinancel"><i class="icon icon-twitter-1"></i></a></li>
+                    <li><a href="https://linkedin.com/in/trinityfinanceltd/"><i class="icon icon-linkedin-1"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Page Navigation-->
+        <!--Page Header-->
+        <header class="page-header common-header bgc-dark-o-5">
+            <div data-parallax="scroll" data-position="center -550px" data-image-src="/Image/bg/bg3.PNG" data-speed="0.3" class="parallax-background"></div>
+            <div class="container text-center cell-vertical-wrapper">
+                <div class="cell-middle">
+                    <h1 class="text-responsive caption nmb">WHO WE ARE!</h1>
+                    <p class="nmb common-serif text-responsive" style="font-size:18px">We offer the best solutions for your business.</p>
+                </div>
+            </div>
+            <div class="ab-bottom col-xs-12">
+                <div class="container">
+                    <div class="breadcrumb bgc-dark-o-6"><span class="__title font-heading fz-6-s">YOU ARE HERE :</span><span class="__content italic font-serif fz-6-ss"><span><a href="@Url.Action("Index")">Home</a></span><span><a>About Us </a></span></span></div>
+                </div>
+            </div>
+        </header>
+        <!--End Page Header-->
+        <!--End Page Header-->
+        <!--Page Body-->
+        <div id="page-body" class="page-body">
+            <section class="page-section bgc-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 section-block-p">
+                            <header class="hr-header">
+                                <h2 class="smb"><strong>WELCOME TO TRINITY FINANCIAL</strong></h2>
+                                <p class="common-serif __caption">We've had the privilege of working with some awesome clients</p>
+                                <div class="separator-2-color"></div>
+                            </header>
+                            <p style="font-size:18px;text-align:justify;margin-bottom:10px!important">Trinity financial is a financial company duly incorporated in Nigeria under the 2002 Companies and Allied Matters Act. licensed and supervised by the Central Bank of Nigeria as a full-fledged Financial Service Firm.</p>
+                            <p style="font-size:18px;text-align:justify;margin-bottom:10px!important">Trinity financial is a fully owned Nigerian company</p>
+                            <p style="font-size:18px;text-align:justify;margin-bottom:10px!important">The company was incorporated in 2018 and commenced operations in January 2019</p>
+                            <p style="font-size:18px;text-align:justify;margin-bottom:10px!important">Trinity financial was licensed by the Central Bank of Nigeria (CBN) in 2018</p>
+                            <p style="font-size:18px;text-align:justify;margin-bottom:10px!important">The company was licensed to provide financial services to both corporate and individual customers</p>
+                            <p style="font-size:18px;text-align:justify;margin-bottom:10px!important">The promoters are experienced financial experts who have vast and extensive knowledge of the financial services sector.</p>
+                            <p style="font-size:18px;text-align:justify;margin-bottom:10px!important"><strong><i>At Trinity, it is MORE for LESS.</i></strong></p>
+                        </div>
+                        <div class="col-md-5 section-block pt-20">
+                            <img src="~/Image/bg/about.PNG"  alt="" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page-section bgc-gray-lightest one-child">
+                <div class="container">
+                    <div class="group-icon-box-border-container">
+                        <div class="__container-inner clearfix">
+                            <div class="__border-item">
+                                <div data-wow-delay="0.3s" class="block-icon-box-vertical wow fadeInUp">
+                                    <div class="__icon simple-icon icon-genius"></div>
+                                    <h4 class="__heading smb">INNOVATIVE PRODUCTS</h4>
+                                    <p class="__caption font-serif italic">Quality services to the people.</p>
+                                </div>
+                            </div>
+                            <div class="__border-item">
+                                <div data-wow-delay="0.3s" class="block-icon-box-vertical wow fadeInUp">
+                                    <div class="__icon simple-icon icon-trophy"></div>
+                                    <h4 class="__heading smb">TRANSPARENT SERVICE</h4>
+                                    <p class="__caption font-serif italic">We offer transparency</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="__border-item">
+                                <div data-wow-delay="0.3s" class="block-icon-box-vertical wow fadeInUp">
+                                    <div class="__icon simple-icon icon-layers"></div>
+                                    <h4 class="__heading smb">BUSINESS RELATIONSHIP</h4>
+                                    <p class="__caption font-serif italic">We build-up long term business relationships. </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-section bgc-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 section-block pt-20">
+                            <img src="~/Image/bg/mission.PNG" alt="Trinity Financial Nigeria Mission" class="img-responsive">
+                        </div>
+                        <div class="col-md-7 section-block-p">
+                            <header class="hr-header">
+                                <h2 class="smb">MISSION STATEMENT</h2>
+                                <p class="common-serif __caption"></p>
+                                <div class="separator-2-color"></div>
+                            </header>
+                            <p style="font-size:18px">To be a one-stop financial hub providing solutions that are tailored to each customer's individual needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-section bgc-light">
+                <div class="container">
+                    <div class="row" style="margin:3px">
+                        <div class="col-md-7 section-block-p">
+                            <header class="hr-header">
+                                <h2 class="smb">OUR VISION</h2>
+                                <p class="common-serif __caption"></p>
+                                <div class="separator-2-color"></div>
+                            </header>
+                            <p style="font-size:18px">To be the most respected and revered financial services company.</p>
+                        </div>
+                        <div class="col-md-5 section-block pt-20">
+                            <img src="~/Image/bg/vision.PNG" alt="Trinity Financial Nigeria Vision" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-section bgc-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 section-block pt-20">
+                            <img src="~/Image/bg/value.PNG" alt="Trinity Financial Nigeria Value" class="img-responsive">
+                        </div>
+                        <div class="col-md-7 section-block-p">
+                            <header class="hr-header">
+                                <h2 class="smb">CORE VALUES</h2>
+                                <p class="common-serif __caption">Our core values encompass the following cardinal point in all areas of our financial services</p>
+                                <div class="separator-2-color"></div>
+                            </header>
+                            <div class="col-md-6">
+                                <ul class="list-arrow list-primary" style="font-size:18px">
+                                    <li>Transparency</li>
+                                    <li>Objectivity</li>
+                                    <li>Accountability</li>
+                                    <li>Innovation</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-arrow list-primary" style="font-size:18px">
+                                    <li>Professionalism</li>
+                                    <li>Integrity</li>
+                                    <li>Speed and accuracy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--End Page Body-->
+        <!--Page Footer-->
+        <footer id="footer" class="page-footer footer-preset-7">
+            <div class="footer-body bgc-gray-darker">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-4 col-xs-12">
+                            <div class="footer-widget-about">
+                                <h4>ABOUT US</h4>
+                                <p style="font-size:18px">
+                                    Trinity financial is committed to its passion of helping entrepreneurs and Individuals to improve their Financial opportunities.
+                                </p>
+                                <ul class="social circle">
+                                    <li><a href="https://facebook.com/trinityfinanceltd" target="_blank"><i class="icon icon-facebook-1"></i></a></li>
+                                    <li><a href="https://twitter.com/trinityfinancel" target="_blank"><i class="icon icon-twitter-1"></i></a></li>
+                                    <li><a href="https://linkedin.com/in/trinityfinanceltd/" target="_blank"><i class="icon icon-linkedin-1"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-4 col-xs-12">
+                            <div class="footer-widget-tag">
+                                <h4>IMPORTANT LINK</h4>
+                                <div class="__content">@*<a href="contact-us.html">Get Loans</a>*@<a href="@Url.Action("Board")">Board/Management Profile</a><a href="@Url.Action("ContactUs")">Chat</a><a href="@Url.Action("Services")">Services</a><a href="@Url.Action("ContactUs")">Locations</a><a href="@Url.Action("ContactUs")">Phone</a><a href="@Url.Action("ContactUs")">Our Office</a><a href="@Url.Action("Services")">Why With Us</a></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-4 col-xs-12">
+                            <div class="footer-widget-info">
+                                <h4>INFORMATION</h4>
+                                <div class="__content font-heading fz-6-ss">
+                                    <div><span><a href="@Url.Action("AboutUs")">ABOUT TRINITY FINANCIAL </a></span><span><a href="@Url.Action("ContactUs")">WHERE IS OUR OFFICE</a></span><span><a href="@Url.Action("Board")"> BOARD/MANAGEMENT PROFILE</a></span><span><a href="@Url.Action("ContactUS")">HOW TO REACH US</a></span><span><a href="@Url.Action("Services")">WHAT WE OFFER</a></span><span><a href="@Url.Action("AboutUs")">WHY US?</a></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-12">
+                            <div class="footer-widget-newsletter">
+                                <h4>NEWS LETTER</h4>
+                                <p style="font-size:18px">Subscribe to get news from us</p>
+                                <form>
+                                    <div class="__inputs">
+                                        <input type="text" name="name" placeholder="Name" />
+                                        <input type="email" name="email" placeholder="info@trinityfinancialng.com" />
+                                    </div>
+                                    <div class="__button"><a href="#" class="btn btn-primary fullwidth">SUBSCRIBE</a></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 __block-wrapper-4">
+                            <div class="footer-widget-logo text-center">
+                                <a href="@Url.Action("Index")" class="trinity logo-light size-2">
+                                    <div class="logo">
+                                        <img src="~/Image/trinity-logo-transparent.png" />
+                                    </div>
+                                    <div class="brand">Trinity Financial <br /><small>Copyright &copy; 2020</small></div>
+                                </a>
+
+                                <hr />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+
+    </div>
+    <!--End Page content-->
+    <!--Javascript Library-->
+    <button id="back-to-top-btn"><i class="icon-up-open-big"></i></button>
+    <script src="/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/vendors/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="/vendors/waypoints/lib/shortcuts/sticky.min.js"></script>
+    <script src="/vendors/smoothscroll/SmoothScroll.js"></script>
+    <script src="/vendors/wow/dist/wow.min.js"></script>
+    <script src="/vendors/parallax.js/parallax.js"></script>
+    <script type="text/javascript" src="/vendors/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/vendors/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="/vendors/jquery-modal/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+    <!-- Google analytics-->
+   @* <script type="text/javascript">(function(b,o,i,l,e,r){b.GoogleAsnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='../../www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create','UA-57387972-3');ga('send','pageview');</script>*@
+    <!--End Javascript Library-->
+</body>
+
+</html>

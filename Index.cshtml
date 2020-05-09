@@ -1,0 +1,284 @@
+﻿@{
+    ViewBag.Title = "Trinity Financial - Home";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+<meta>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trinity Financial - Home</title>
+    <meta name="description" content="Trinity Financial Nigeria">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="~/Image/trinity-logo-transparent.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="~/Image/trinity-logo-transparent.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="~/Image/trinity-logo-transparent.png" sizes="16x16">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="~/Image/trinity-logo-transparent.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/vendors/animate.css/animate.min.css">
+    <meta title="" />
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:700,400" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic&amp;subset=latin,latin-ext,cyrillic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/fonts/trinity/styles.css">
+    <!--Main stylesheet-->
+    <link rel="stylesheet" href="/assets/css/main.css?44444">
+    <!--Modernizr js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+<body>
+    <!--Page Content-->
+    <div class="page-content">
+        <!-- Page Navigation-->
+        <div class="main-nav bgc-transparent border-separator nav-absolute">
+            <div class="__middle">
+                <div class="container">
+                    <div class="nav-content-wrapper">
+                        <div class="pull-left">
+                            <div class="trinity inline">
+                                <div class="cell-vertical-wrapper">
+                                    <div class="cell-middle">
+                                        <a href="#">
+                                            <div class="logo">
+                                                <img src="~/Image/trinity-logo-transparent.png" />
+                                            </div>
+                                            <div class="brand">TRINITY FINANCIAL</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pull-right">
+                            <nav class="os-menu  main-menu text-center">
+                                <ul>
+                                    <li class="active">
+                                        <a href="#">HOME</a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("AboutUs")">ABOUT US</a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Services")">SERVICES</a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Board")"> BOARD/MANAGEMENT PROFILE</a>
+                                    </li>
+                                    @*<li>
+                                        <a href="@Url.Action("News")">NEWS</a>
+                                    </li>*@
+                                    <li>
+                                        <a href="@Url.Action("FAQ")">FAQs</a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("ContactUs")">CONTACT US</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-nav small-nav bgc-light fixed-tranformed-bg-light nav-fixed border-bottom">
+            <div class="container">
+                <div class="nav-content-wrapper">
+                    <div class="pull-left">
+                        <div class="trinity inline logo-dark">
+                            <div class="cell-vertical-wrapper">
+                                <div class="cell-middle">
+                                    <a href="#">
+                                        <div class="logo">
+                                            <img src="~/Image/trinity-logo-transparent.png" /></div>
+                                        <div class="brand">TRINITY FINANCIAL</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pull-right visible-lg">
+                        <nav class="os-menu main-menu">
+                            <ul>
+                                <li class="active">
+                                    <a href="#">HOME</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("AboutUs")">ABOUT US</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Services")">SERVICES</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Board")"> BOARD/MANAGEMENT PROFILE</a>
+                                </li>
+                                @*<li>
+                                    <a href="@Url.Action("News")">NEWS</a>
+                                </li>*@
+                                <li>
+                                    <a href="@Url.Action("FAQ")">FAQs</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("ContactUs")">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div class="pull-right nav-item hidden-lg"><a href="#" class="mobile-nav-toggle nav-hamburger"><span></span></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="#" class="mobile-nav-toggle"><i class="icon-close47"></i></a><a href="#" class="trinity">
+                <div class="logo">
+                    <img src="~/Image/trinity-logo-transparent.png" /></div>
+                <div class="brand">TRINITY FINANCIAL</div>
+            </a>
+            <nav class="os-menu mobile-menu">
+                <ul>
+                    <li class="active">
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("AboutUs")">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Services")">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Board")"> BOARD/MANAGEMENT PROFILE</a>
+                    </li>
+                    @*<li>
+                        <a href="@Url.Action("News")">NEWS</a>
+                    </li>*@
+                    <li>
+                        <a href="@Url.Action("FAQ")">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("ContactUs")">CONTACT US</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <div class="social-area">
+                <ul class="social circle gray">
+                    <li><a href="https://facebook.com/trinityfinanceltd"><i class="icon icon-facebook-1"></i></a></li>
+                    <li><a href="https://twitter.com/trinityfinancel"><i class="icon icon-twitter-1"></i></a></li>
+                    <li><a href="https://linkedin.com/in/trinityfinanceltd/"><i class="icon icon-linkedin-1"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Page Navigation-->
+        <!--Page Header-->
+        <header class="page-header home home-slider-1">
+            <div class="slider caption-slider control-nav direction-nav">
+                <div class="block-caption-slider overlay-container">
+                    <div style="background-image: url(/Image/bg/newbg2.PNG); background-position: undefined" class="__img-background"></div>
+                    <div class="overlay bgc-dark-o-5">
+                        <div class="cell-vertical-wrapper">
+                            <div class="cell-middle">
+                                <div class="caption-preset-simple-4 text-center">
+                                    <div class="container">
+                                        <div class="caption-wrapper">
+                                            <h1 class="text-responsive caption">TRINITY FINANCIAL</h1>
+                                            <p class="font-serif-italic fz-3 caption">Let's help You with your financial needs</p>
+                                            <div class="__buttons caption"><a href="@Url.Action("Services")" target="_self" class="btn-border btn-light fullwidth">GET STARTED</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-caption-slider overlay-container">
+                    <div style="background-image: url(/Image/bg/newbg5.PNG); background-position: undefined" class="__img-background"></div>
+                    <div class="overlay bgc-dark-o-5">
+                        <div class="cell-vertical-wrapper">
+                            <div class="cell-middle">
+                                <div class="caption-preset-simple-5 text-center">
+                                    <div class="container">
+                                        <div class="caption-wrapper">
+                                            <h1 class="text-responsive  caption">MUCH MORE ACCESSIBILITY</h1>
+                                            <p class="font-serif-italic fz-3 caption">Get Instant Financial Help</p>
+                                            <div class="__buttons caption"><a href="https://forms.gle/mHw5QP8CyVDfE9XE6" target="_blank" class="btn-border btn-light fullwidth">GET STARTED</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-caption-slider overlay-container">
+                    <div style="background-image: url(/Image/bg/bg1.PNG); background-position: undefined" class="__img-background"></div>
+                    <div class="overlay bgc-dark-o-5">
+                        <div class="cell-vertical-wrapper">
+                            <div class="cell-middle">
+                                <div class="caption-preset-simple-2 text-center">
+                                    <div class="container">
+                                        <div class="caption-wrapper">
+                                            <a href="@Url.Action("AboutUs")" class="trinity logo-light size-3 caption">
+                                            </a>
+                                            <h1 class="text-responsive caption">ARCHIEVE YOUR BUSINESS GOALS</h1>
+                                            <p class="font-serif-italic fz-3 caption">We help you achieve your business goals with ease</p>
+                                            <div class="__buttons caption"><a href="@Url.Action("ContactUs")" target="_self" class="btn-border btn-light fullwidth">GET IN TOUCH</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-caption-slider overlay-container">
+                    <div style="background-image: url(/Image/bg/bg2.PNG); background-position: undefined" class="__img-background"></div>
+                    <div class="overlay bgc-dark-o-5">
+                        <div class="cell-vertical-wrapper">
+                            <div class="cell-middle">
+                                <div class="caption-preset-simple-3 text-center">
+                                    <div class="container">
+                                        <div class="caption-wrapper">
+                                            <h1 class="text-responsive  caption">WE HELP YOU DEVELOP YOUR BUSINESS</h1>
+                                            <p class="font-serif-italic fz-3 caption">We will work with you to fully understand your business and your target</p>
+                                            <div class="__buttons caption"><a href="@Url.Action("AboutUs")" target="_blank" class="btn-border btn-light fullwidth">GET STARTED</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--End Page Header-->
+        <!--Page Body-->
+        <!--End Page Body-->
+        <!--Page Footer-->
+
+    </div>
+    <!--End Page content-->
+    <!--Javascript Library-->
+    <button id="back-to-top-btn"><i class="icon-up-open-big"></i></button>
+    <script src="/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/vendors/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="/vendors/waypoints/lib/shortcuts/sticky.min.js"></script>
+    <script src="/vendors/smoothscroll/SmoothScroll.js"></script>
+    <script src="/vendors/wow/dist/wow.min.js"></script>
+    <script src="/vendors/parallax.js/parallax.js"></script>
+    <script type="text/javascript" src="/vendors/jquery-countTo/jquery.countTo.js"></script>
+    <script type="text/javascript" src="/vendors/slick-carousel/slick/slick.js"></script>
+    <script type="text/javascript" src="/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <script type="text/javascript" src="/vendors/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="/vendors/jquery-modal/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+    <!-- Google analytics-->
+  
+    <!--End Javascript Library-->
+</body>
+</html>
